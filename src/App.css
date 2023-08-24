@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.card2 {
+  background-color: whitesmoke;
+  width: 50vw;
+  border-radius: 10px;
+  border: 2px solid gray;
+  padding: 20px;
+  margin: 10px;
+}
+
+.card3 {
+  background-color: lightpink;
+  width: 50vw;
+  border-radius: 10px;
+  border: 2px solid #f88ca7;
+  padding: 20px;
+  margin: 10px;
+}
+
+.carding2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.radio {
+  width: 20px;
+}
+.mini_card {
+  margin-left: 10px;
+}
+
+.radioOption {
+  display: flex;
+}
+.par1 {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.amount {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.card2heading {
+  font-size: 30px;
+  font-weight: 600;
+}
+.totalhead {
+  color: #cd264f;
+  font-size: 20px;
+
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 10px;
+}
+.totalhead1 {
+  color: black;
+  font-size: 24px;
+
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 10px;
+}
+.last {
+  text-decoration: line-through;
+  color: #000000;
+}
+
+.total {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+}
+
+.btn {
+  height: 50px;
+  width: 50vw;
+  background-color: #cd264f;
+  border: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.titlehead {
+  color: #cd264f;
+  font-size: 30px;
+
+  font-weight: 600;
+}
+
+.title {
+  display: flex;
+}
+
+.cardheading {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 35px;
+  align-self: flex-end;
+  margin: 10px;
+}
+.mosting {
+  color: #cd264f;
+  font-size: 20px;
+
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 10px;
+}
+.color_setting {
+  padding: 10px;
+  display: flex;
+}
+
+.last1 {
+  color: #000000;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-left: 60px;
+}
+
+.selcetd {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 1px;
+}
+.part1 {
+  display: flex;
+  align-items: center;
+}
+.size_Setting {
+  margin: 10px;
+}
